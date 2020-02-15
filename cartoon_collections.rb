@@ -4,7 +4,9 @@ def roll_call_dwarves(names)
   end
 end 
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(p_calls)
+p_calls.collect do |call|
+  
 end
 
 def long_planeteer_calls# code an argument here
